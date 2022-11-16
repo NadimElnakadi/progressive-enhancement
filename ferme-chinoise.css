@@ -1,0 +1,127 @@
+
+p{
+    font-family: serif;
+    color:darkblue;
+
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+a:hover{
+    color:blue;
+}
+a:visited{
+    color:purple;
+}
+body{
+    max-width: 90%;
+    margin-left: 80px;
+    background: -webkit-radial-gradient(rgb(199, 175, 207), rgb(198, 25, 90));
+    background: radial-gradient(rgb(199, 175, 207), rgb(198, 25, 90));
+    background-image: url(https://scontent.fbru3-1.fna.fbcdn.net/v/t31.18172-8/26240061_1797251100287704_2611823115506850859_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=4EhMZAPsZXEAX9u_7yh&_nc_ht=scontent.fbru3-1.fna&oh=00_AfBZy1KKIoCKxlYgRo2Vp126xe5L12PT24G3s34M__bHBA&oe=639B180F);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: Open sans-serif;
+    
+}
+blockquote{
+    max-width: 50%;
+    margin: auto;
+    background-color: #C0C0C0;
+    font-size: 160%;
+    border-left: 3px solid firebrick; 
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+q{
+    font-style: italic;
+}
+.villageois{
+    border-left: solid red;
+}
+
+.fermier{
+    border-left: solid yellow;
+}
+
+header > h1{
+    background-color: yellow;
+    text-align: center;
+}
+
+.good{
+    text-transform: capitalize;
+    color: green;
+}
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+table tr:nth-child(odd){
+    background-color: grey;
+}
+
+ul li:nth-of-type(1){
+    background-image: url(bien.png);
+    background-position: 280px;
+    background-repeat: no-repeat;
+}
+
+li{
+    padding: 20px 0px;
+}
+
+ul li:nth-of-type(2){
+    background-image: url(mal.png);
+    background-position: 280px;
+    background-repeat: no-repeat;
+}
+
+ul li:nth-of-type(3){
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: 280px;
+}
+
+p:first-of-type{
+    font-weight: bold;
+}
+
+img:first-of-type{
+    float: left;
+    margin: 10px;
+}
+
+img:nth-of-type(2){
+    float: inline-end;
+    margin: 10px;
+}
+
+img:nth-of-type(3){
+    float: left;
+    margin: 10px;
+}
+
+img{
+    height: 400px;
+    width: auto;
+}
+
+td{
+    border: 2px solid black;
+}
+
+table{
+    border: 4px dotted black;
+}
+
+@font-face{
+    font-family: Open-Sans;
+    src: url(Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
